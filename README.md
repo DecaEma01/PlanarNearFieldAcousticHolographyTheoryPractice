@@ -20,7 +20,7 @@ The files are ordered such that the first file should refer to the microphone at
 For each measurement there's also another subfolder (NoiseFloor/) that contains the autospectrum of 1 microphone (the one at the rigt bottom corner) recorded while the source was On and Off, along with screenshots; this can be used to compute the SNR. 
 
 ### DataMatlabExtract/
-Here there's a MATLAB script that, for a certain measurement set, can read each of the 60 text files and stores the pressures in a matrix as corresponding to the microphones positions in the array, each with 6401 frequency bins. The output is a single `.mat` file for use in later NAH processing. You may need to change the folder path the script looks into to choose a certain measurement set of files. In the folder the correspondent `.mat` files processed like this are already included.
+Here there's a MATLAB script that, for a certain measurement set, reads each of the 60 text files and stores the pressures in a matrix as corresponding to the microphones positions in the array, each with 6401 frequency bins. The output is a single `.mat` file for use in later NAH processing. You may need to change the folder path the script looks into to choose a certain measurement set of files. In the folder the correspondent `.mat` files processed like this are already included.
 
 ### ProjectPulseBackup/
 Contains the B&K Pulse project file used for the measurements.
