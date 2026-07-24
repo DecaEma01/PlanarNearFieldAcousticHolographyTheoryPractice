@@ -9,9 +9,9 @@ clc
 % SETTINGS
 % -------------------------------------------------------------------------
 
-%dataFolder = fullfile('..','Results','CenterPosition','FrequencyResponses');
-%dataFolder = fullfile('..','Results','FarCenterPosition','FrequencyResponses');
-dataFolder = fullfile('..','Results','RightCornerPosition','FrequencyResponses');
+%dataFolder = fullfile('..','RawData','CenterPosition','FrequencyResponses');
+%dataFolder = fullfile('..','RawData','FarCenterPosition','FrequencyResponses');
+dataFolder = fullfile('..','RawData','RightCornerPosition','FrequencyResponses');
 
 baseName = 'Frequency Response H1(Signal %d,Signal 1) - Input.txt';
 
